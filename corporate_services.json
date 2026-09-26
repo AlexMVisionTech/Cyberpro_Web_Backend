@@ -1,0 +1,6 @@
+[
+  {"title": "Cybersecurity Awareness Training", "desc": "Equip your workforce with security best practices, phishing recognition, and incident response protocols.", "icon": "Shield"},
+  {"title": "Enterprise Cloud Migration", "desc": "Hands-on cloud architecture workshops for IT teams transitioning to AWS, Azure, or GCP environments.", "icon": "Building2"},
+  {"title": "Leadership Tech Bootcamps", "desc": "Executive-level programs on AI strategy, digital transformation, and technology risk governance.", "icon": "Users"},
+  {"title": "Data Analytics Upskilling", "desc": "Train analysts and managers on Python, SQL, BI tools, and data-driven decision frameworks.", "icon": "BarChart3"}
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Adversarial Robustness in CNN-Based Malware Classifiers",
+    "authors": "Mulwa, P. et al.",
+    "venue": "IEEE Access, 2026",
+    "type": "Journal",
+    "link": null
+  },
+  {
+    "title": "Zero-Trust Architecture Adoption in East African Financial Institutions",
+    "authors": "Okoth, J. & Gitonga, E.",
+    "venue": "ACM Computing Surveys, 2025",
+    "type": "Journal",
+    "link": null
+  },
+  {
+    "title": "Federated Learning for Cross-Border Threat Intelligence Sharing",
+    "authors": "Mulwa, P. & Amina, M.",
+    "venue": "USENIX Security Symposium, 2025",
+    "type": "Conference",
+    "link": null
+  },
+  {
+    "title": "IoT Firmware Vulnerability Analysis Using Automated Fuzzing",
+    "authors": "Gitonga, E. et al.",
+    "venue": "Black Hat Africa, 2025",
+    "type": "Conference",
+    "link": null
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Adversarial Machine Learning",
+    "desc": "Researching defense mechanisms against model poisoning, evasion attacks, and data backdoors in production AI systems.",
+    "lead": "Dr. Philip Mulwa",
+    "icon": "FlaskConical"
+  },
+  {
+    "title": "Critical Infrastructure Protection",
+    "desc": "Developing security frameworks for SCADA systems, power grids, and IoT networks across East African institutions.",
+    "lead": "Prof. Janet Okoth",
+    "icon": "Globe"
+  },
+  {
+    "title": "Privacy-Preserving Computation",
+    "desc": "Advancing federated learning, differential privacy, and homomorphic encryption for healthcare and finance data.",
+    "lead": "Dr. Eric Gitonga",
+    "icon": "BookOpen"
+  }
+]

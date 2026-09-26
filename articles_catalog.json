@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Implementing Zero-Trust Architecture in Legacy Enterprise Infrastructure",
+    "excerpt": "Explore concrete pathways to migrate older networks to zero-trust segments using micro-segmentations.",
+    "cat": "security",
+    "catLabel": "Cybersecurity",
+    "date": "August 1, 2026",
+    "read": "6 min",
+    "author": "Dr. Philip Mulwa",
+    "img": "/images/blog_1.jpg",
+    "featured": true,
+    "content": "Explore concrete pathways to migrate older networks to zero-trust segments using micro-segmentations."
+  },
+  {
+    "title": "Model Adversarial Defense: Hardening ML Classifiers",
+    "excerpt": "A technical breakdown of threat mechanisms attacking image recognition systems with adversarial feeds.",
+    "cat": "ai",
+    "catLabel": "Artificial Intelligence",
+    "date": "July 28, 2026",
+    "read": "8 min",
+    "author": "Prof. Janet Okoth",
+    "img": "/images/blog_2.jpg",
+    "content": "A technical breakdown of threat mechanisms attacking image recognition systems with adversarial feeds.",
+    "featured": false
+  },
+  {
+    "title": "Navigating Your First Cybersecurity Job Search in Africa",
+    "excerpt": "Practical tips for landing entry-level SOC roles, building portfolios, and passing technical interviews.",
+    "cat": "career",
+    "catLabel": "Career Guide",
+    "date": "July 15, 2026",
+    "read": "5 min",
+    "author": "Amina M.",
+    "img": "/images/blog_3.jpg",
+    "content": "Practical tips for landing entry-level SOC roles, building portfolios, and passing technical interviews.",
+    "featured": false
+  },
+  {
+    "title": "AWS Security Best Practices for Startups",
+    "excerpt": "Essential IAM policies, S3 bucket configurations, and CloudTrail monitoring for early-stage companies.",
+    "cat": "security",
+    "catLabel": "Cloud Security",
+    "date": "July 10, 2026",
+    "read": "7 min",
+    "author": "Dr. Eric Gitonga",
+    "img": "/images/blog_1.jpg",
+    "content": "Essential IAM policies, S3 bucket configurations, and CloudTrail monitoring for early-stage companies.",
+    "featured": false
+  },
+  {
+    "title": "The Rise of AI-Powered Phishing Attacks",
+    "excerpt": "How generative AI is transforming social engineering and what defenders need to know.",
+    "cat": "ai",
+    "catLabel": "AI Security",
+    "date": "July 5, 2026",
+    "read": "6 min",
+    "author": "Dr. Philip Mulwa",
+    "img": "/images/blog_2.jpg",
+    "content": "How generative AI is transforming social engineering and what defenders need to know.",
+    "featured": false
+  },
+  {
+    "title": "Building a Cybersecurity Home Lab on a Budget",
+    "excerpt": "Step-by-step guide to setting up VMs, vulnerable targets, and monitoring tools for self-study.",
+    "cat": "career",
+    "catLabel": "Career Guide",
+    "date": "June 28, 2026",
+    "read": "10 min",
+    "author": "Amina M.",
+    "img": "/images/blog_3.jpg",
+    "content": "Step-by-step guide to setting up VMs, vulnerable targets, and monitoring tools for self-study.",
+    "featured": false
+  }
+]

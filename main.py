@@ -1,4 +1,4 @@
-"""CyberPro Global public website and administration API."""
+"""Cyberpro Global public website and administration API."""
 
 from contextlib import asynccontextmanager
 import logging
@@ -28,8 +28,8 @@ async def lifespan(_: FastAPI):
 
 
 app = FastAPI(
-    title="CyberPro Global API",
-    description="Public content and secure administration services for CyberPro Global.",
+    title="Cyberpro Global API",
+    description="Public content and secure administration services for Cyberpro Global.",
     version="1.0.0",
     docs_url="/docs" if os.getenv("ENVIRONMENT", "development").lower() != "production" else None,
     redoc_url=None,
@@ -56,7 +56,7 @@ app.add_middleware(
 
 @app.get("/", tags=["system"])
 def read_root():
-    return {"name": "CyberPro Global API", "version": app.version, "docs": "/docs" if app.docs_url else None}
+    return {"name": "Cyberpro Global API", "version": app.version, "docs": "/docs" if app.docs_url else None}
 
 
 @app.get("/health", tags=["system"])

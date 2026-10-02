@@ -1,4 +1,4 @@
-"""Database configuration for the CyberPro API."""
+"""Database configuration for the Cyberpro API."""
 
 import os
 

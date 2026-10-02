@@ -1,4 +1,7 @@
 ---
 deployment:
   tasks:
-    - /bin/echo "CyberPro Backend deployment completed"
+    - export DEPLOYPATH=$HOME/cyberpro_backend/
+    - /bin/mkdir -p "$DEPLOYPATH"
+    - /bin/cp -R . "$DEPLOYPATH"
+    - /bin/echo "Cyberpro Backend deployment completed"

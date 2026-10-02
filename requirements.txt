@@ -3,4 +3,3 @@ uvicorn
 SQLAlchemy
 email-validator
 python-multipart
-a2wsgi

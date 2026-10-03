@@ -1,7 +1,11 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=$HOME/cyberpro_backend/
+    - export DEPLOYPATH=$HOME/public_html/
     - /bin/mkdir -p "$DEPLOYPATH"
-    - /bin/cp -R . "$DEPLOYPATH"
-    - /bin/echo "Cyberpro Backend deployment completed"
+    - /bin/cp index.php .htaccess "$DEPLOYPATH"
+    - /bin/mkdir -p "$HOME/cyberpro_backend"
+    - /bin/cp create_admin.php setup_cpanel.sh "$HOME/cyberpro_backend/"
+    - /bin/mkdir -p "$HOME/cyberpro_data/uploads"
+    - /bin/chmod 700 "$HOME/cyberpro_data" "$HOME/cyberpro_data/uploads"
+    - /bin/echo "Cyberpro PHP API deployment completed"

@@ -1,0 +1,16 @@
+Options -Indexes
+RewriteEngine On
+
+# Block secrets, database files, and private hosting configuration.
+<FilesMatch "^(\.env|.*\.db|.*\.sqlite|.*\.sqlite3|composer\.(json|lock)|admin\.php|data)$">
+  Require all denied
+</FilesMatch>
+
+# Let uploaded files reach the guarded media route before the SPA fallback.
+RewriteRule ^media/([a-f0-9]{32}\.(jpg|png|webp|gif))$ index.php [QSA,L]
+
+# Preserve API requests, then route non-file browser paths to React.
+RewriteRule ^api(?:/.*)?$ index.php [QSA,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.html [QSA,L]

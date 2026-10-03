@@ -1,4 +1,5 @@
 Options -Indexes
+DirectoryIndex index.html
 RewriteEngine On
 
 # Block secrets, database files, and private hosting configuration.
@@ -8,6 +9,9 @@ RewriteEngine On
 
 # Let uploaded files reach the guarded media route before the SPA fallback.
 RewriteRule ^media/([a-f0-9]{32}\.(jpg|png|webp|gif))$ index.php [QSA,L]
+
+# Expose the API health check through the PHP front controller.
+RewriteRule ^health/?$ index.php [QSA,L]
 
 # Preserve API requests, then route non-file browser paths to React.
 RewriteRule ^api(?:/.*)?$ index.php [QSA,L]
